@@ -6,12 +6,17 @@
 
 body {
 	background-image: url('../img/nightshade.gif');
+	color: #fff;
+	font-family: 'Raleway', 'sans-serif';
 }
 
 
 
 
-
+section {
+	background-color: #fff;
+	height: 100px;
+}
 
 
 
