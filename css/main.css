@@ -8,17 +8,19 @@ body {
 	background-image: url('../img/nightshade.gif');
 	color: #fff;
 	font-family: 'Raleway', 'sans-serif';
+	text-align: center;
 }
 
-
-
-
-section {
-	background-color: #fff;
-	height: 100px;
+h1 {
+	font-weight: 800;
 }
 
-
+.window {
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/dora.jpg');
+	background-repeat: no-repeat;
+}
 
 
 
