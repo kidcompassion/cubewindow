@@ -2,7 +2,10 @@ $(document).ready(function(){
 	
 	$('.view').click(function(){
 		
-		$('.window').css('background', 'red');
+		var number = Math.floor((Math.random() *5));
+		var imgArray = ['yellow', 'blue', 'green', 'red', 'purple'];
+
+		$('.window').css('background', imgArray[number]);
 	});
 	
 });

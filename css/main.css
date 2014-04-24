@@ -18,12 +18,15 @@ h1 {
 .window {
 	height: 100%;
 	width: 100%;
-	background-image: url('../img/dora.jpg');
-	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
 }
 
 
-
+.window img {
+	background-size: cover;
+	min-width: 100%;
+}
 
 
 
