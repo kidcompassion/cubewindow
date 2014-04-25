@@ -21,7 +21,7 @@ function jsonFlickrApi(rsp) {
   p_url = "http://www.flickr.com/photos/" + 
   photo.owner + "/" + photo.id;
   
-  s +=  '<a href="' + p_url + '">' + '<img alt="'+ 
+  s +=  '<a href="' + p_url + '">' + '<img class="background-image" alt="'+ 
   photo.title + '"src="' + t_url + '"/>' + '</a>';
  }
  

@@ -1,17 +1,25 @@
 $(document).ready(function(){
 	
 	$('.view').click(function(){
-		
-		var number = Math.floor((Math.random() *5));
 		var imgArray = [
-			'yellow', 
-			'blue', 
-			'green', 
-			'red', 
-			'purple'
+			"carillonjane", 
+			"mary", 
+			"olgapolis", 
+			"contessabessa",
+			"tomfrommyspace",
+			"dora",
+			"videogirl",
+			"cijin",
+			"argleton", 
+			"241"
 			];
 
-		$('.window').css('background-image', imgArray[number]);
+		var totalImgs = imgArray.length;
+
+		var number = Math.floor((Math.random() * totalImgs));
+
+
+		$(".window").css("background-image", "url('img/" + imgArray[number] + ".jpg')");
 	});
 	
 });
