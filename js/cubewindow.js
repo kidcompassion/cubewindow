@@ -23,6 +23,11 @@ $(document).ready(function(){
 				"photo_url" : "http://twitter.com/olgapolis" 
 			}, 
 			{
+				"photo_name" : "sally", 
+				"photo_credit" : "Photo by @sallypoulsen", 
+				"photo_url" : "http://twitter.com/sallypoulsen" 
+			}, 
+			{
 				"photo_name" : "contessabessa", 
 				"photo_credit" : "Photo by contessabessa", 
 				"photo_url" : "http://twitter.com/contessabessa"
