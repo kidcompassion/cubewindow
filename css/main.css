@@ -7,12 +7,28 @@
 body {
 	background-image: url('../img/nightshade.gif');
 	color: #fff;
-	font-family: 'Raleway', 'sans-serif';
+	font-family: 'Pompiere', 'sans-serif';
 	text-align: center;
+	font-size: 2em;
 }
 
 h1 {
 	font-weight: 800;
+	text-transform: uppercase; 
+	float:left;
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+header {
+	height: 80px;
+}
+
+.wrapper {
+	margin:0 auto;
 }
 
 .window {
@@ -27,11 +43,19 @@ h1 {
 	background-color: #fff;
 }
 
-
-
 .window img {
 	background-size: cover;
 	min-width: 100%;
+}
+
+.selectors {
+	display:block;
+	float: none;
+	margin: 10px 0px;
+}
+
+footer {
+
 }
 
 
