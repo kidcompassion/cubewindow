@@ -10,26 +10,19 @@ body {
 	font-family: 'Pompiere', 'sans-serif';
 	text-align: center;
 	font-size: 2em;
+	margin: 0px;
+	padding: 0px;
 }
 
 h1 {
 	font-weight: 800;
 	text-transform: uppercase; 
-	float:left;
-	font-size: 3em;
-}
-
-h2 {
 	font-size: 2em;
 }
 
 header {
-	height: 80px;
 }
 
-.wrapper {
-	margin:0 auto;
-}
 
 .window {
 	height: 100%;
@@ -48,17 +41,32 @@ header {
 	min-width: 100%;
 }
 
+.photo_credit {
+height: 40px;
+}
+
 .selectors {
-	display:block;
-	float: none;
-	margin: 10px 0px;
-}
-
-footer {
-
+	margin: 20px 0
 }
 
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.photo_credit {
+	}
+ }
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.photo_credit {
+		padding-top: 20px;
+		float: right;
+	}
 
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+		
+ }
 

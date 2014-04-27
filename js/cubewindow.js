@@ -1,7 +1,11 @@
 $(document).ready(function(){
 	
 	$('.view').click(function(){
-				$(".credit_link").remove();
+		
+		$(".photo_credit span").remove();
+
+		$(".credit_link").remove();
+		
 		var imgArray = [
 			{
 				"photo_name" : "carillonjane", 
@@ -33,7 +37,7 @@ $(document).ready(function(){
 
 		$(".window").css("background-image", "url('img/" + imgArray[number].photo_name + ".jpg')");
 
-		$(".container").prepend(credit);
+		$(".photo_credit").prepend(credit);
 
 
 
